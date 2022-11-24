@@ -1,0 +1,10 @@
+.keyboard{
+    height: 65%;
+    padding: 3px;
+    margin: 6px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transform: translateY(15%);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}

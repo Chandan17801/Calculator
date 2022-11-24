@@ -1,0 +1,17 @@
+.display{
+    transform: translateY(40%);
+    height: 20%;
+    background-color: rgb(69, 58, 58);
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    padding: 2px;
+    position: relative;
+}
+
+.display_value{
+    font-size: 2rem;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}

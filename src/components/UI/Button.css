@@ -1,0 +1,25 @@
+.button{
+    border: 2px solid black;
+    margin: 4px;
+    width: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(109, 188, 91);
+    color: black;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(136, 203, 121);
+    scale: 1.02;
+}
+
+.button.zero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 129px;
+}
