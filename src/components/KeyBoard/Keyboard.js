@@ -15,7 +15,7 @@ function Keyboard(props) {
         ? setEnteredValue('0')
         : setEnteredValue(enteredValue.slice(0, -1))
       props.onEqual(false)
-    } else if (enteredValue.length===16){return}
+    } else if (enteredValue.length===15){return}
     else if (enteredValue === '0' && value!=='.') setEnteredValue(value)
     else setEnteredValue(enteredValue + value);
   }
